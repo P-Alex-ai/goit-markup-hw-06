@@ -1,32 +1,24 @@
 .team-bg {
     background: #f4f4fd;
-    padding: 96px 0;
-}
-
-.team-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 72px;
+    padding: 120px 0;
+    width: 100%;
 }
 
 .team-conteiner {
     display: flex;
     flex-wrap: wrap;
-    gap: 72px;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
     justify-content: center;
 }
 
-.team-item {
-    width: 264px;
-    background: #fff;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-        0 1px 1px 0 rgba(46, 47, 66, 0.16),
-        0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
+
+.team-bg img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .team-div {
@@ -34,27 +26,52 @@
     text-align: center;
 }
 
+.team-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
 .team-h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
 }
 
 .team-p {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #434455;
 }
+
+.team-item {
+    background: #ffffff;
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
+    box-shadow: 0px 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
 
 .team-social {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-top: 8px;
+    padding: 0;
+    list-style: none;
 }
 
 .team-social-link {
@@ -76,20 +93,4 @@
 
 .team-social-icon {
     fill: currentColor;
-}
-
-@media screen and (min-width: 768px) {
-    .team-conteiner {
-        gap: 64px 24px;
-    }
-}
-
-@media screen and (min-width: 1158px) {
-    .team-bg {
-        padding: 120px 0;
-    }
-
-    .team-conteiner {
-        gap: 24px;
-    }
 }

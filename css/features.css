@@ -23,7 +23,7 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
 }
 
 .features-p {
@@ -31,7 +31,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
+    text-align: left;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
@@ -40,6 +41,15 @@
         flex-wrap: wrap;
         gap: 24px;
         row-gap: 72px;
+    }
+
+    .features-h3 {
+        text-align: left;
+    }
+
+    .features-p {
+        font-weight: 500;
+        text-align: left;
     }
 
     .features-item {
@@ -77,11 +87,12 @@
     .features-h3 {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        
         text-align: left;
     }
 
     .features-p {
+        font-weight: 400;
         text-align: left;
     }
 }

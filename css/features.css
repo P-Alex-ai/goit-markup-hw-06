@@ -1,14 +1,14 @@
-.fetures {
+.features {
     padding: 96px 0;
 }
 
-.fetures-conteiner {
+.features-conteiner {
     display: flex;
     flex-direction: column;
     gap: 72px;
 }
 
-.fetures-item {
+.features-item {
     width: 100%;
 }
 

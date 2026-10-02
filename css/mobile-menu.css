@@ -27,8 +27,12 @@
     width: 24px;
     height: 24px;
     padding: 0;
+    border-radius: 50%;
+    border: 1px solid rgba(46, 47, 66, 0.1);
+    background-color: #e7e9fc;
+    
     background: transparent;
-    border: none;
+    
     cursor: pointer;
     color: #2e2f42;
 }
@@ -87,7 +91,11 @@
 
 .mobile-menu-social {
     display: flex;
+    flex-direction: row;
     gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .mobile-menu-social-link {

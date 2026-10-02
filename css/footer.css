@@ -11,7 +11,7 @@
 }
 
 .footer-left {
-    text-align: center;
+    text-align: left;
 }
 
 .logo-f {
@@ -37,7 +37,7 @@
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 268px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .footer-social {
@@ -96,7 +96,7 @@
 .subscribe-form-label {
     display: block;
     width: 100%;
-    max-width: 288px;
+    max-width: none;
 }
 
 .subscribe-form-input {
@@ -155,6 +155,8 @@
 
 @media screen and (min-width: 768px) {
     .footer-container {
+        max-width: 552px;
+        margin: 0 auto;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
@@ -181,8 +183,10 @@
     }
 
     .subscribe-form {
+        display: flex;
         flex-direction: row;
-        justify-content: center;
+        align-items: center;
+        justify-content: flex-start;
         gap: 24px;
     }
 
